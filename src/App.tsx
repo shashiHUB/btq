@@ -218,6 +218,12 @@ function App() {
                     >
                       Tailoring
                     </button>
+                    <button 
+                      onClick={() => scrollToSection('portfolio')}
+                      className="btn btn-outline"
+                    >
+                      Picture Gallery
+                    </button>
                   </div>
                 </div>
               </div>
@@ -443,7 +449,11 @@ function App() {
                 </div>
                 <button 
                   type="submit" 
-                  className={`btn w-full ${isFormValid ? 'btn-primary' : 'bg-gray-700 text-gray-400 cursor-not-allowed'}`}
+                  className={`btn w-full ${
+                    isFormValid 
+                    ? 'btn-primary hover:bg-primary/90 transition-colors' 
+                    : 'btn-primary opacity-50 cursor-not-allowed'
+                  }`}
                   disabled={!isFormValid}
                 >
                   Send Message
