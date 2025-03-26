@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Menu, X, Star, MapPin, Phone, Mail, Instagram, Facebook, Scissors, MessageCircle, AlertCircle } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay } from 'swiper/modules';
+import { Autoplay, Navigation } from 'swiper/modules';
 import { useNavigate } from 'react-router-dom';
 import { Carousel } from './components/Carousel';
 import { Dropdown } from './components/Dropdown';
@@ -12,6 +12,7 @@ import { navigationItems } from './site-data/navigation';
 import { contactInfo } from './site-data/contact';
 import slideshowImages from './site-data/images';
 import 'swiper/css';
+import 'swiper/css/navigation';
 
 function App() {
   const navigate = useNavigate();
@@ -114,7 +115,17 @@ function App() {
             <div className="hidden md:flex items-center space-x-6">
               <Dropdown 
                 label="Services" 
-                items={navigationItems.services}
+                items={[
+                  ...navigationItems.services,
+                  {
+                    label: "Tailoring",
+                    onClick: () => {
+                      setActiveCategory('tailoring');
+                      setActiveSubCategory('wedding'); // Set wedding as default subcategory
+                      scrollToSection('portfolio');
+                    }
+                  }
+                ]}
               />
               <Dropdown 
                 label="Portfolio" 
@@ -332,7 +343,7 @@ function App() {
               className={`px-4 py-2 rounded-full transition-colors ${activeCategory === 'tailoring' ? 'bg-primary text-white' : 'text-gray-400 hover:text-primary'}`}
               onClick={() => {
                 setActiveCategory('tailoring');
-                setActiveSubCategory('bridal');
+                setActiveSubCategory('wedding'); // Set default subcategory
               }}
             >
               Tailoring
@@ -363,7 +374,9 @@ function App() {
               {Object.keys(portfolio.tailoring).map((subCategory) => (
                 <button
                   key={subCategory}
-                  className={`px-4 py-2 rounded-full transition-colors ${activeSubCategory === subCategory ? 'bg-secondary-light text-primary' : 'text-gray-400 hover:text-primary'}`}
+                  className={`px-4 py-2 rounded-full transition-colors ${
+                    activeSubCategory === subCategory ? 'bg-secondary-light text-primary' : 'text-gray-400 hover:text-primary'
+                  }`}
                   onClick={() => setActiveSubCategory(subCategory)}
                 >
                   {subCategory.charAt(0).toUpperCase() + subCategory.slice(1)}

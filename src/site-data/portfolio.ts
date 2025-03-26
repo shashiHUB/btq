@@ -1,7 +1,14 @@
 export const portfolio = {
   beauty: {
     bridal: [
-      { image: 'https://images.unsplash.com/photo-1594051843837-8be3f0f65d26', title: 'Bridal Makeup' },
+      {
+        image: "https://images.unsplash.com/photo-1519699047748-de8e457a634e?auto=format&fit=crop&w=800&q=60",
+        title: "Bridal Makeup"
+      },
+      {
+        image: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=800&q=60",
+        title: "Wedding Day Look"
+      },
       { image: 'https://images.unsplash.com/photo-1595435934249-5df7ed86e1c0', title: 'Wedding Hair' },
       { image: 'https://images.unsplash.com/photo-1519699047748-de8e457a634e', title: 'Bridal Style' }
     ],
@@ -11,14 +18,36 @@ export const portfolio = {
       { image: 'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e', title: 'Glamour Style' }
     ],
     hair: [
+      {
+        image: "https://images.unsplash.com/photo-1522336572468-97b06e8ef143?auto=format&fit=crop&w=800&q=60",
+        title: "Hair Treatment"
+      },
+      {
+        image: "https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388?auto=format&fit=crop&w=800&q=60",
+        title: "Hair Styling"
+      },
       { image: 'https://images.unsplash.com/photo-1605497788044-5a32c7078486', title: 'Hair Styling' },
       { image: 'https://images.unsplash.com/photo-1562322140-8baeececf3df', title: 'Hair Color' },
-      { image: 'https://images.unsplash.com/photo-1560869713-da86a9ec4088', title: 'Hair Treatment' }
+      { 
+        image: "https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=800&q=60",
+        title: "Hair Treatment"
+      },
+      { 
+        image: 'https://images.unsplash.com/photo-1525517450344-d08c6a528e3c?auto=format&fit=crop&w=800&q=60', 
+        title: 'Hair Styling' 
+      }
     ]
   },
   tailoring: {
-    bridal: [
-      { image: 'https://images.unsplash.com/photo-1594575126246-f33d24f5e734', title: 'Wedding Gown' },
+    wedding: [
+      { 
+        image: "https://images.unsplash.com/photo-1612336307429-8a898d10e223?auto=format&fit=crop&w=800&q=60",
+        title: "Wedding Gown"
+      },
+      {
+        image: "https://images.unsplash.com/photo-1550614000-4895a10e1bfd?auto=format&fit=crop&w=800&q=60",
+        title: "Bridal Collection"
+      },
       { image: 'https://images.unsplash.com/photo-1595777457583-95e059d581b8', title: 'Bridal Dress' },
       { image: 'https://images.unsplash.com/photo-1595777457583-95e059d581b8', title: 'Reception Dress' }
     ],
