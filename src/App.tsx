@@ -14,6 +14,25 @@ import slideshowImages from './site-data/images';
 import 'swiper/css';
 import 'swiper/css/navigation';
 
+interface YouTubeEmbedProps {
+  videoId: string;
+}
+
+const YouTubeEmbed: React.FC<YouTubeEmbedProps> = ({ videoId }) => {
+  return (
+    <div className="relative w-full aspect-video rounded-lg overflow-hidden">
+      <iframe
+        className="absolute top-0 left-0 w-full h-full"
+        src={`https://www.youtube.com/embed/${videoId}?autoplay=0&mute=1`}
+        title="YouTube video player"
+        frameBorder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowFullScreen
+      ></iframe>
+    </div>
+  );
+};
+
 function App() {
   const navigate = useNavigate();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -422,12 +441,8 @@ function App() {
               </div>
             </div>
             <div className="relative">
-              <img 
-                src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&q=80" 
-                alt="Boutique Interior"
-                className="rounded-lg shadow-2xl"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-secondary via-transparent to-transparent rounded-lg"></div>
+              <YouTubeEmbed videoId="EnulhZuwz04" />
+              <div className="absolute inset-0 bg-gradient-to-t from-secondary via-transparent to-transparent rounded-lg pointer-events-none"></div>
             </div>
           </div>
         </div>
@@ -578,7 +593,7 @@ function App() {
       <footer className="py-8 border-t border-gray-800">
         <div className="container">
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <p className="text-gray-400">© 2024 Usha Boutique. All rights reserved.</p>
+            <p className="text-gray-400">© 2025 Usha Boutique. All rights reserved.</p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <a href="#" className="text-gray-400 hover:text-primary">Privacy Policy</a>
               <a href="#" className="text-gray-400 hover:text-primary">Terms of Service</a>
