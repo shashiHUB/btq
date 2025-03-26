@@ -1,0 +1,36 @@
+export const portfolio = {
+  beauty: {
+    bridal: [
+      { image: 'https://images.unsplash.com/photo-1594051843837-8be3f0f65d26', title: 'Bridal Makeup' },
+      { image: 'https://images.unsplash.com/photo-1595435934249-5df7ed86e1c0', title: 'Wedding Hair' },
+      { image: 'https://images.unsplash.com/photo-1519699047748-de8e457a634e', title: 'Bridal Style' }
+    ],
+    makeup: [
+      { image: 'https://images.unsplash.com/photo-1487412912498-0447578fcca8', title: 'Evening Makeup' },
+      { image: 'https://images.unsplash.com/photo-1516975080664-ed2fc6a32937', title: 'Natural Look' },
+      { image: 'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e', title: 'Glamour Style' }
+    ],
+    hair: [
+      { image: 'https://images.unsplash.com/photo-1605497788044-5a32c7078486', title: 'Hair Styling' },
+      { image: 'https://images.unsplash.com/photo-1562322140-8baeececf3df', title: 'Hair Color' },
+      { image: 'https://images.unsplash.com/photo-1560869713-da86a9ec4088', title: 'Hair Treatment' }
+    ]
+  },
+  tailoring: {
+    bridal: [
+      { image: 'https://images.unsplash.com/photo-1594575126246-f33d24f5e734', title: 'Wedding Gown' },
+      { image: 'https://images.unsplash.com/photo-1595777457583-95e059d581b8', title: 'Bridal Dress' },
+      { image: 'https://images.unsplash.com/photo-1595777457583-95e059d581b8', title: 'Reception Dress' }
+    ],
+    formal: [
+      { image: 'https://images.unsplash.com/photo-1591369822096-ffd140ec948f', title: 'Evening Wear' },
+      { image: 'https://images.unsplash.com/photo-1578632767115-351597cf2477', title: 'Business Attire' },
+      { image: 'https://images.unsplash.com/photo-1490707967831-1fd9b48e40e2', title: 'Formal Suits' }
+    ],
+    casual: [
+      { image: 'https://images.unsplash.com/photo-1539109136881-3be0616acf4b', title: 'Casual Wear' },
+      { image: 'https://images.unsplash.com/photo-1434389677669-e08b4cac3105', title: 'Summer Collection' },
+      { image: 'https://images.unsplash.com/photo-1496747611176-843222e1e57c', title: 'Daily Wear' }
+    ]
+  }
+};
