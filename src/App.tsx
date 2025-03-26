@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Menu, X, Star, MapPin, Phone, Mail, Instagram, Facebook, Scissors, MessageCircle, AlertCircle } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay } from 'swiper/modules';
 import { useNavigate } from 'react-router-dom';
 import { Carousel } from './components/Carousel';
 import { Dropdown } from './components/Dropdown';
@@ -9,6 +10,7 @@ import { services } from './site-data/services';
 import { portfolio } from './site-data/portfolio';
 import { navigationItems } from './site-data/navigation';
 import { contactInfo } from './site-data/contact';
+import slideshowImages from './site-data/images';
 import 'swiper/css';
 
 function App() {
@@ -179,6 +181,7 @@ function App() {
       {/* Hero Section */}
       <section className="pt-24 pb-12">
         <Swiper
+          modules={[Autoplay]}
           spaceBetween={0}
           slidesPerView={1}
           loop={true}
@@ -230,6 +233,43 @@ function App() {
             </div>
           </SwiperSlide>
         </Swiper>
+      </section>
+
+      {/* Featured Gallery Section */}
+      <section className="py-16 bg-secondary">
+        <div className="container">
+          <h2 className="section-title text-center mb-12">Featured Gallery</h2>
+          <Swiper
+            modules={[Autoplay]}
+            spaceBetween={0}
+            slidesPerView={1}
+            loop={true}
+            autoplay={{ 
+              delay: 5000,
+              disableOnInteraction: false
+            }}
+            className="rounded-lg overflow-hidden"
+          >
+            {slideshowImages.map((image, index) => (
+              <SwiperSlide key={index}>
+                <div className="relative h-[600px]">
+                  <img 
+                    src={image.url} 
+                    alt={image.alt}
+                    className="w-full h-full object-cover"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-secondary via-transparent to-transparent">
+                    <div className="absolute bottom-8 left-8">
+                      <h3 className="text-2xl font-serif text-white mb-2">
+                        {image.caption}
+                      </h3>
+                    </div>
+                  </div>
+                </div>
+              </SwiperSlide>
+            ))}
+          </Swiper>
+        </div>
       </section>
 
       {/* Services Section */}
