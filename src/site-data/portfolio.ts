@@ -14,7 +14,7 @@ export const portfolio = {
     ],
     makeup: [
       { image: 'https://images.unsplash.com/photo-1487412912498-0447578fcca8', title: 'Evening Makeup' },
-      { image: "https://photos.app.goo.gl/GHUTaiD3xvMw77r39",title: "Super makeup"},
+      { image: "https://lh3.googleusercontent.com/pw/AP1GczPqf7bOC571zeVYsr5vo9lR8r5xvvzITOCfD4WX0GZbMNWK0ZSw-HWYU-Y6BDjyBIRPborrW8_CrAl0Cv1q2laFVHWjCwvbt4_mbYUyeVrhxpFnIA=w2400",title: "Super makeup"},
       { image: 'https://images.unsplash.com/photo-1516975080664-ed2fc6a32937', title: 'Natural Look' },
       { image: 'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e', title: 'Glamour Style' }
     ],
