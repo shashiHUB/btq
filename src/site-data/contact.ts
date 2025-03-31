@@ -13,5 +13,5 @@ export const contactInfo = {
     sunday: 'Closed'
   },
   address: 'Race Course Rd, PWD Colony, Rangoli Halla, Hassan Karnataka 573201',
-  email: 'contact@ushaboutique.com'
+  email: 'UshaRaniMakeOver@Gmail.com'
 };
