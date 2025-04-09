@@ -1,7 +1,7 @@
 export const services = {
   beauty: [
     { name: 'Facial Treatment', price: 'Rupee 50', duration: '60 min' },
-    { name: 'Hair Styling', price: '$40', duration: '45 min' },
+    { name: 'Hair Styling', price: 'Rupee 40', duration: '45 min' },
     { name: 'Makeup', price: '$60', duration: '60 min' },
     { name: 'Manicure & Pedicure', price: '$45', duration: '60 min' }
   ],
