@@ -1,5 +1,7 @@
-const CACHE_NAME = 'btq-cache-v1';
-const urlsToCache = [
+const CACHE_VERSION = 'v1.0.1';
+const CACHE_NAME = `btq-cache-${CACHE_VERSION}`;
+
+const STATIC_RESOURCES = [
   '/',
   '/index.html',
   '/manifest.json',
@@ -7,48 +9,54 @@ const urlsToCache = [
   '/icons/btq-icon-512.png'
 ];
 
-self.addEventListener('install', event => {
+self.addEventListener('install', (event) => {
   event.waitUntil(
-    caches.open(CACHE_NAME)
-      .then(cache => cache.addAll(urlsToCache))
+    caches.open(CACHE_NAME).then((cache) => {
+      return cache.addAll(STATIC_RESOURCES);
+    })
   );
+  // Activate new service worker immediately
+  self.skipWaiting();
 });
 
-self.addEventListener('fetch', event => {
-  event.respondWith(
-    caches.match(event.request)
-      .then(response => {
-        if (response) {
-          return response; // Return cached response if found
-        }
-        
-        // Clone the request because it can only be used once
-        const fetchRequest = event.request.clone();
-
-        return fetch(fetchRequest)
-          .then(response => {
-            // Check if response is valid
-            if (!response || response.status !== 200 || response.type !== 'basic') {
-              return response;
-            }
-
-            // Clone the response because it can only be used once
-            const responseToCache = response.clone();
-
-            // Add new response to cache
-            caches.open(CACHE_NAME)
-              .then(cache => {
-                cache.put(event.request, responseToCache);
-              });
-
-            return response;
+self.addEventListener('activate', (event) => {
+  event.waitUntil(
+    caches.keys().then((cacheNames) => {
+      return Promise.all(
+        cacheNames
+          .filter((cacheName) => {
+            // Delete old version caches
+            return cacheName.startsWith('btq-cache-') && cacheName !== CACHE_NAME;
           })
-          .catch(error => {
-            // Return a fallback response or handle the error
-            console.log('Fetch failed:', error);
-            // Return the offline page if available
-            return caches.match('/offline.html');
+          .map((cacheName) => {
+            return caches.delete(cacheName);
+          })
+      );
+    })
+  );
+  // Claim all clients immediately
+  return self.clients.claim();
+});
+
+self.addEventListener('fetch', (event) => {
+  event.respondWith(
+    fetch(event.request)
+      .then((response) => {
+        // Clone the response
+        const responseToCache = response.clone();
+
+        // Update cache
+        if (event.request.method === 'GET') {
+          caches.open(CACHE_NAME).then((cache) => {
+            cache.put(event.request, responseToCache);
           });
+        }
+
+        return response;
+      })
+      .catch(() => {
+        // Fallback to cache if network fails
+        return caches.match(event.request);
       })
   );
 });
