@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
-import { Menu, X, Star, MapPin, Phone, Mail, Instagram, Facebook, Scissors, MessageCircle, AlertCircle } from 'lucide-react';
+import React, { useState, useRef, useEffect } from 'react';
+import { Menu, X, MapPin, Phone, Mail, Instagram, Scissors, MessageCircle, AlertCircle } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay, Navigation } from 'swiper/modules';
+import { Autoplay } from 'swiper/modules';
 import { useNavigate } from 'react-router-dom';
 import { Carousel } from './components/Carousel';
 import { Dropdown } from './components/Dropdown';
@@ -36,8 +36,8 @@ const YouTubeEmbed: React.FC<YouTubeEmbedProps> = ({ videoId }) => {
 function App() {
   const navigate = useNavigate();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [activeCategory, setActiveCategory] = useState('beauty');
-  const [activeSubCategory, setActiveSubCategory] = useState('bridal');
+  const [activeCategory, setActiveCategory] = useState<keyof typeof portfolio>('beauty');
+  const [activeSubCategory, setActiveSubCategory] = useState<string>('bridal');
   
   // Contact form state
   const [contactName, setContactName] = useState('');
@@ -48,7 +48,25 @@ function App() {
     email: ''
   });
 
-  const portfolioItems = portfolio[activeCategory]?.[activeSubCategory];
+  const menuRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    function handleClickOutside(event: MouseEvent) {
+      if (menuRef.current && !menuRef.current.contains(event.target as Node)) {
+        setIsMenuOpen(false); // Close the menu when clicking outside
+      }
+    }
+
+    // Only add the event listener if the menu is open
+    if (isMenuOpen) {
+      document.addEventListener('mousedown', handleClickOutside);
+      return () => {
+        document.removeEventListener('mousedown', handleClickOutside);
+      };
+    }
+  }, [isMenuOpen]); // Add isMenuOpen as a dependency
+
+  const portfolioItems = portfolio[activeCategory]?.[activeSubCategory as keyof typeof portfolio[typeof activeCategory]];
 
   const validateEmail = (email: string) => {
     const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -124,7 +142,7 @@ function App() {
       {/* Header */}
       <header className="fixed w-full top-0 z-50 bg-secondary/95 backdrop-blur-sm">
         <div className="container py-4">
-          <nav className="flex items-center justify-between">
+          <nav className="flex items-center justify-between" ref={menuRef}>
             <div className="flex items-center gap-2">
               <Scissors className="h-8 w-8 text-primary" />
               <span className="text-2xl font-serif font-bold text-primary">Usha</span>
@@ -172,39 +190,39 @@ function App() {
             >
               {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
-          </nav>
 
-          {/* Mobile Navigation */}
-          {isMenuOpen && (
-            <motion.div 
-              initial={{ opacity: 0, y: -20 }}
-              animate={{ opacity: 1, y: 0 }}
-              className="md:hidden py-4 space-y-4"
-            >
-              <div className="space-y-4">
-                <Dropdown 
-                  label="Services" 
-                  items={navigationItems.services}
-                />
-                <Dropdown 
-                  label="Portfolio" 
-                  items={navigationItems.portfolio}
-                />
-                <a href="#about" className="block px-4 py-2 text-gray-300 hover:text-primary transition-colors duration-200">
-                  About
-                </a>
-                <a href="#contact" className="block px-4 py-2 text-gray-300 hover:text-primary transition-colors duration-200">
-                  Contact
-                </a>
-                <button 
-                  className="btn btn-primary w-full"
-                  onClick={handleBookAppointment}
-                >
-                  Book Appointment
-                </button>
-              </div>
-            </motion.div>
-          )}
+            {/* Mobile Navigation */}
+            {isMenuOpen && (
+              <motion.div 
+                initial={{ opacity: 0, y: -20 }}
+                animate={{ opacity: 1, y: 0 }}
+                className="md:hidden absolute top-full left-0 right-0 bg-secondary/95 backdrop-blur-sm"
+              >
+                <div className="space-y-4">
+                  <Dropdown 
+                    label="Services" 
+                    items={navigationItems.services}
+                  />
+                  <Dropdown 
+                    label="Portfolio" 
+                    items={navigationItems.portfolio}
+                  />
+                  <a href="#about" className="block px-4 py-2 text-gray-300 hover:text-primary transition-colors duration-200">
+                    About
+                  </a>
+                  <a href="#contact" className="block px-4 py-2 text-gray-300 hover:text-primary transition-colors duration-200">
+                    Contact
+                  </a>
+                  <button 
+                    className="btn btn-primary w-full"
+                    onClick={handleBookAppointment}
+                  >
+                    Book Appointment
+                  </button>
+                </div>
+              </motion.div>
+            )}
+          </nav>
         </div>
       </header>
 
