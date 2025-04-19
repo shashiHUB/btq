@@ -53,8 +53,8 @@ export const portfolio = {
       { image: 'https://images.unsplash.com/photo-1595777457583-95e059d581b8', title: 'Bridal Dress' },
       { image: 'https://images.unsplash.com/photo-1595777457583-95e059d581b8', title: 'Reception Dress' }
     ],
-    formal: [
-      { image: 'https://images.unsplash.com/photo-1591369822096-ffd140ec948f', title: 'Evening Wear' },
+    gowns: [
+      { image: 'https://lh3.googleusercontent.com/pw/AP1GczPMU9ZK6sICo0TBpY6-RWAxL2ZpSdkYqKpUc7EjbmwcMy9kvwxw9RnOKplV9sK91LKSQco4Ssh_VE3eMNbA-6_b_FrMOwbVtQ_PHGtQN_m86WAmfQY=w2400', title: 'Saare Gown' },
       { image: 'https://images.unsplash.com/photo-1578632767115-351597cf2477', title: 'Business Attire' },
       { image: 'https://images.unsplash.com/photo-1490707967831-1fd9b48e40e2', title: 'Formal Suits' }
     ],
