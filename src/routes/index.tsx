@@ -2,6 +2,7 @@ import React from 'react';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import App from '../App';
 import { AppointmentPage } from '../pages/AppointmentPage';
+import { PictureGallery } from '../pages/PictureGallery';
 import { ErrorBoundary } from '../components/ErrorBoundary';
 
 const router = createBrowserRouter([
@@ -13,6 +14,11 @@ const router = createBrowserRouter([
   {
     path: '/book-appointment',
     element: <AppointmentPage />,
+    errorElement: <ErrorBoundary><div>Page not found</div></ErrorBoundary>,
+  },
+  {
+    path: '/gallery',
+    element: <PictureGallery />,
     errorElement: <ErrorBoundary><div>Page not found</div></ErrorBoundary>,
   }
 ]);

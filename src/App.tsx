@@ -53,18 +53,17 @@ function App() {
   useEffect(() => {
     function handleClickOutside(event: MouseEvent) {
       if (menuRef.current && !menuRef.current.contains(event.target as Node)) {
-        setIsMenuOpen(false); // Close the menu when clicking outside
+        setIsMenuOpen(false);
       }
     }
 
-    // Only add the event listener if the menu is open
     if (isMenuOpen) {
       document.addEventListener('mousedown', handleClickOutside);
       return () => {
         document.removeEventListener('mousedown', handleClickOutside);
       };
     }
-  }, [isMenuOpen]); // Add isMenuOpen as a dependency
+  }, [isMenuOpen]);
 
   const portfolioItems = portfolio[activeCategory]?.[activeSubCategory as keyof typeof portfolio[typeof activeCategory]];
 
@@ -111,6 +110,10 @@ function App() {
     navigate('/book-appointment');
   };
 
+  const handlePictureGallery = () => {
+    navigate('/gallery');
+  };
+
   const handleWhatsAppClick = () => {
     window.open(`https://wa.me/${contactInfo.whatsapp}`, '_blank');
   };
@@ -129,7 +132,6 @@ function App() {
 
       window.open(`https://wa.me/919148717456?text=${message}`, '_blank');
       
-      // Reset form
       setContactName('');
       setContactEmail('');
       setContactMessage('');
@@ -158,7 +160,7 @@ function App() {
                     label: "Tailoring",
                     onClick: () => {
                       setActiveCategory('tailoring');
-                      setActiveSubCategory('wedding'); // Set wedding as default subcategory
+                      setActiveSubCategory('wedding');
                       scrollToSection('portfolio');
                     }
                   }
@@ -270,8 +272,8 @@ function App() {
                       Tailoring
                     </button>
                     <button 
-                      onClick={() => scrollToSection('portfolio')}
-                      className="btn btn-outline"
+                      onClick={handlePictureGallery}
+                      className="btn btn-primary"
                     >
                       Picture Gallery
                     </button>
@@ -380,7 +382,7 @@ function App() {
               className={`px-4 py-2 rounded-full transition-colors ${activeCategory === 'tailoring' ? 'bg-primary text-white' : 'text-gray-400 hover:text-primary'}`}
               onClick={() => {
                 setActiveCategory('tailoring');
-                setActiveSubCategory('wedding'); // Set default subcategory
+                setActiveSubCategory('wedding');
               }}
             >
               Tailoring
@@ -624,4 +626,3 @@ function App() {
 }
 
 export default App;
-
