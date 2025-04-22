@@ -62,7 +62,7 @@ export const portfolio = {
       { image: 'https://lh3.googleusercontent.com/pw/AP1GczONuvKCX0UqyMI0BuOD4FrT66j0mQjdjXhO8UkzweMD9Fd1CfLDufJnP02-5th8Hell_GnWmsWbc9oPlfEBr8SZCUln2bwn0UnMRaC29_waivRJx0M=w2400', title: 'BN1' },
       { image: 'https://lh3.googleusercontent.com/pw/AP1GczPyoFl0iFiskMxcn1XmjQ6C_RCNM5XPeeys6zlSzBoRsJiX8Sj6_qJ6wjWfwHNHYoch49RpPVX6QlQxmb8n5CWWNGX8_B6DRh680reQFfJHHC0sFns=w2400', title: 'BN2' },
       { image: 'https://lh3.googleusercontent.com/pw/AP1GczOroXJUlTEgoC3F23kfm2LTcZeQO0FYR5IQQaqCikS3mwn_35VCulYcQvsY1rDCQaRUa4iNDWrU5Q4siyPRqpWkFZ80BnEp-9y9i4aZauKEDRkJoaY=w2400', title: 'BN3' },
-      { image: 'https://lh3.googleusercontent.com/pw/AP1GczO9MCL4bYjvUAoiL4XF925J-xykdvWcQlfn_IUlE41iTlC1lvmwvpFJQ0plzpuiXlFzwm-l7FjIMwkpPtoeV2lssBQdptfeShCDtDIytJNSFIz7QvQ=w2400', title:'BN4' }
+      { image: 'https://lh3.googleusercontent.com/pw/AP1GczO9MCL4bYjvUAoiL4XF925J-xykdvWcQlfn_IUlE41iTlC1lvmwvpFJQ0plzpuiXlFzwm-l7FjIMwkpPtoeV2lssBQdptfeShCDtDIytJNSFIz7QvQ=w2400', title: 'BN4' }
    ]
   }
 };
