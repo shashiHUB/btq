@@ -9,7 +9,7 @@ export const portfolio = {
         image: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=800&q=60",
         title: "Wedding Day Look"
       },
-      { image: 'https://images.unsplash.com/photo-1595435934249-5df7ed86e1c0', title: 'Wedding Hair' },
+      { image: 'https://images.unsplash.com/photo-1595435934249-5df7ed86e1c0', title: 'Wedding Hair'},
       { image: 'https://images.unsplash.com/photo-1534270804882-6b5048b1c1fc?auto=format&fit=crop&w=800&q=60', title: 'Bridal Style' }
     ],
     makeup: [
