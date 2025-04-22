@@ -59,7 +59,7 @@ export const portfolio = {
       { image: 'https://images.unsplash.com/photo-1490707967831-1fd9b48e40e2', title: 'Formal Suits' }
     ],
     casual: [
-      { image: 'https://images.unsplash.com/photo-1539109136881-3be0616acf4b', title: 'Casual Wear' },
+      { image: 'https://lh3.googleusercontent.com/pw/AP1GczONuvKCX0UqyMI0BuOD4FrT66j0mQjdjXhO8UkzweMD9Fd1CfLDufJnP02-5th8Hell_GnWmsWbc9oPlfEBr8SZCUln2bwn0UnMRaC29_waivRJx0M=w2400', title: 'Back Neck Design' },
       { image: 'https://images.unsplash.com/photo-1434389677669-e08b4cac3105', title: 'Summer Collection' },
       { image: 'https://images.unsplash.com/photo-1496747611176-843222e1e57c', title: 'Daily Wear' }
     ]
