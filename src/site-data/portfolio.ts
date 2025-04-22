@@ -58,9 +58,9 @@ export const portfolio = {
       { image: 'https://images.unsplash.com/photo-1578632767115-351597cf2477', title: 'Business Attire' },
       { image: 'https://images.unsplash.com/photo-1490707967831-1fd9b48e40e2', title: 'Formal Suits' }
     ],
-    Blouse Designs: [
+   blouse : [
       { image: 'https://lh3.googleusercontent.com/pw/AP1GczONuvKCX0UqyMI0BuOD4FrT66j0mQjdjXhO8UkzweMD9Fd1CfLDufJnP02-5th8Hell_GnWmsWbc9oPlfEBr8SZCUln2bwn0UnMRaC29_waivRJx0M=w2400', title: 'BN1' },
-      { image: 'https://images.unsplash.com/photo-1434389677669-e08b4cac3105', title: 'Summer Collection' },
+      { image: 'https://lh3.googleusercontent.com/pw/AP1GczPyoFl0iFiskMxcn1XmjQ6C_RCNM5XPeeys6zlSzBoRsJiX8Sj6_qJ6wjWfwHNHYoch49RpPVX6QlQxmb8n5CWWNGX8_B6DRh680reQFfJHHC0sFns=w2400', title: 'BN2' },
       { image: 'https://images.unsplash.com/photo-1496747611176-843222e1e57c', title: 'Daily Wear' }
     ]
   }
