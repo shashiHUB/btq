@@ -70,7 +70,10 @@ export const portfolio = {
       { image: 'https://lh3.googleusercontent.com/pw/AP1GczMJ03AUiq5ly1zSMJ1WnYt8DxpwK0jyP-PWeoXs6yrt3H6Iy0NA_bV_MzEiAD5C6-E1yYz8Hh-ft3XKaUiyMgJrTnrQ6VXtCLPRQMs3Bmz5dvpqOzc=w2400', title: 'Puff sleeve-BN9'},
       { image: 'https://lh3.googleusercontent.com/pw/AP1GczPuCrl0GKOdjzu3kH8XW4XEagsAFWn-JADlzcWKha1gsP1qWlLF4gPfQZEdahRsXUlDxVRdXERjKxdIB5IpCo2yDqbIJe8OH7ZIVHnOT_xk3pzrDNE=w2400', title: 'Latest-BN10'},
       { image: 'https://lh3.googleusercontent.com/pw/AP1GczM4aKqrtkLf5buSFD-7HSyoN5B76KkvD1ikVzXPdRCMwwz5TFlwjfi-ROvguyL2FB9DM6qV_dJnDpQUa6AjSgBMBTffDH7gX36spJh7LJkYFjnfU6A=w2400', title: 'Back lays-BN11},
-      { image: 'https://lh3.googleusercontent.com/pw/AP1GczMJ8WpESPgVEG0zEqsyfrOwE-dkTvawN73D3KlnrLMIX-gi4a5zmrF5FFq8xvwTW-0_fLKsXUMA_RKDfqnFQabtiaJHqhD8G77W525gcN7JOeZzmz0=w2400', title: 'latest-BN12}
+      { image: 'https://lh3.googleusercontent.com/pw/AP1GczMJ8WpESPgVEG0zEqsyfrOwE-dkTvawN73D3KlnrLMIX-gi4a5zmrF5FFq8xvwTW-0_fLKsXUMA_RKDfqnFQabtiaJHqhD8G77W525gcN7JOeZzmz0=w2400', title: 'latest-BN12},
+      { image: 'https://lh3.googleusercontent.com/pw/AP1GczP52F9Wb1Jnd_v9y55MC0p_7iXQzDCp5oXlIeK9YhnopdvFy7qwZGYXHlbOiACbT5smcbDO7m6Ncd1TljIh0SqoHnBybnE_NG2bicfWolSxDql6erA=w2400', title: 'Cap Sleeve-BN13},
+      { image: 'https://lh3.googleusercontent.com/pw/AP1GczPbfKMzrkaq9tKG8eEzEWJSkXwY0m6CRxnuNev7BVTrFjPUFNrNz6h7XNapx8-zgzbuJBwjkkHpshDR17vPnkqpbzBI6Vf9z3abFPsekZxZnNVR84k=w2400', title: 'Modren-BN14},
+      { image: 'https://lh3.googleusercontent.com/pw/AP1GczMUrHuZrDZl0-9PhLH-VGs3CZtEa_IGci5D7KOCKG5ibz53-HqoB5oNkFhvrm4-4nyZqw1rJ2VDh0fgXuPrqkANdbVNbLHDFlBWDfOfKtJQRtVk7LQ=w2400', title: 'Latest-BN15},
    ]
    ]
   }
