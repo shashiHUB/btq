@@ -59,10 +59,19 @@ export const portfolio = {
       { image: 'https://images.unsplash.com/photo-1490707967831-1fd9b48e40e2', title: 'Formal Suits' }
     ],
    blouse : [
-      { image: 'https://lh3.googleusercontent.com/pw/AP1GczONuvKCX0UqyMI0BuOD4FrT66j0mQjdjXhO8UkzweMD9Fd1CfLDufJnP02-5th8Hell_GnWmsWbc9oPlfEBr8SZCUln2bwn0UnMRaC29_waivRJx0M=w2400', title: 'BN1' },
-      { image: 'https://lh3.googleusercontent.com/pw/AP1GczPyoFl0iFiskMxcn1XmjQ6C_RCNM5XPeeys6zlSzBoRsJiX8Sj6_qJ6wjWfwHNHYoch49RpPVX6QlQxmb8n5CWWNGX8_B6DRh680reQFfJHHC0sFns=w2400', title: 'BN2' },
-      { image: 'https://lh3.googleusercontent.com/pw/AP1GczOroXJUlTEgoC3F23kfm2LTcZeQO0FYR5IQQaqCikS3mwn_35VCulYcQvsY1rDCQaRUa4iNDWrU5Q4siyPRqpWkFZ80BnEp-9y9i4aZauKEDRkJoaY=w2400', title: 'BN3' },
-      { image: 'https://lh3.googleusercontent.com/pw/AP1GczO9MCL4bYjvUAoiL4XF925J-xykdvWcQlfn_IUlE41iTlC1lvmwvpFJQ0plzpuiXlFzwm-l7FjIMwkpPtoeV2lssBQdptfeShCDtDIytJNSFIz7QvQ=w2400', title: 'BN4' }
+      { image: 'https://lh3.googleusercontent.com/pw/AP1GczONuvKCX0UqyMI0BuOD4FrT66j0mQjdjXhO8UkzweMD9Fd1CfLDufJnP02-5th8Hell_GnWmsWbc9oPlfEBr8SZCUln2bwn0UnMRaC29_waivRJx0M=w2400', title: 'Closed neck-BN1' },
+      { image: 'https://lh3.googleusercontent.com/pw/AP1GczPyoFl0iFiskMxcn1XmjQ6C_RCNM5XPeeys6zlSzBoRsJiX8Sj6_qJ6wjWfwHNHYoch49RpPVX6QlQxmb8n5CWWNGX8_B6DRh680reQFfJHHC0sFns=w2400', title: 'Arch-BN2' },
+      { image: 'https://lh3.googleusercontent.com/pw/AP1GczOroXJUlTEgoC3F23kfm2LTcZeQO0FYR5IQQaqCikS3mwn_35VCulYcQvsY1rDCQaRUa4iNDWrU5Q4siyPRqpWkFZ80BnEp-9y9i4aZauKEDRkJoaY=w2400', title: 'Vshape-BN3' },
+      { image: 'https://lh3.googleusercontent.com/pw/AP1GczNcHCmMw7i5QSfIMDSuLmnBx5L8SM-wZuqVmHuZTcVU7m3wuPM7KJHmbi8xQDo2T0bLxQgncBttjgZ_UOJKOD3h2Qb9lCohd3NIXXTjFwpyACu_rxo=w2400', title: 'Pot-BN4' },
+      { image: 'https://lh3.googleusercontent.com/pw/AP1GczMak18gTPchrAXAsyi0M2sfUludcXTT8N09nsjIp35IitDrhhcujUapXx71hLZZiN_01_ykmpZ2b3GAhjyi9o-whNpwuHBmyHbj6mYrZl2ZFPGzbDY=w2400', title: 'Round neck-BN5' },
+      { image: 'https://lh3.googleusercontent.com/pw/AP1GczNj-PZxoJ-ZlwcS0jmBQLXikiGwia5i0-QWG8lk4mMuuPekCZyhiEXxrYbRGtreFit90s9198nEu2tvN1otppMBxcHYRCzbblujqoKLx7roVKTeQlE=w2400', title: 'Lays pattren-BN6' },
+      { image: 'https://lh3.googleusercontent.com/pw/AP1GczMVRpg1UVzP4eXJBk4Gvgxl6rLnUM2ld3286UzN1g_wTbuXI1iasvZMvqjaMS8oagdi2l6OaxmUdpHxTg91-tQyTBWpBcNXBdfVqfG14SVpYvPEpwA=w2400', title: 'Lays pattren-BN7' },
+      { image: 'https://lh3.googleusercontent.com/pw/AP1GczPq3O-_JxXCkkEK4gJGDGTvcYjlRRkkTGnxXr52glgeoQ9N3GlbkdWLln3YzLMe0gM74ppPXbqxNbD9Eksct86RMPhfYJh0Y4Z5ECgZwTxHxi-1b7I=w2400', title: 'Pot neck-BN8' },
+      { image: 'https://lh3.googleusercontent.com/pw/AP1GczMJ03AUiq5ly1zSMJ1WnYt8DxpwK0jyP-PWeoXs6yrt3H6Iy0NA_bV_MzEiAD5C6-E1yYz8Hh-ft3XKaUiyMgJrTnrQ6VXtCLPRQMs3Bmz5dvpqOzc=w2400', title: 'Puff sleeve-BN9'},
+      { image: 'https://lh3.googleusercontent.com/pw/AP1GczPuCrl0GKOdjzu3kH8XW4XEagsAFWn-JADlzcWKha1gsP1qWlLF4gPfQZEdahRsXUlDxVRdXERjKxdIB5IpCo2yDqbIJe8OH7ZIVHnOT_xk3pzrDNE=w2400', title: 'Latest-BN10'},
+      { image: 'https://lh3.googleusercontent.com/pw/AP1GczM4aKqrtkLf5buSFD-7HSyoN5B76KkvD1ikVzXPdRCMwwz5TFlwjfi-ROvguyL2FB9DM6qV_dJnDpQUa6AjSgBMBTffDH7gX36spJh7LJkYFjnfU6A=w2400', title: 'Back lays-BN11},
+      { image: 'https://lh3.googleusercontent.com/pw/AP1GczMJ8WpESPgVEG0zEqsyfrOwE-dkTvawN73D3KlnrLMIX-gi4a5zmrF5FFq8xvwTW-0_fLKsXUMA_RKDfqnFQabtiaJHqhD8G77W525gcN7JOeZzmz0=w2400', title: 'latest-BN12}
+   ]
    ]
   }
 };
