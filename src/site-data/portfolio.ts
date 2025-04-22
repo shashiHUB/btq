@@ -9,7 +9,7 @@ export const portfolio = {
         image: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=800&q=60",
         title: "Wedding Day Look"
       },
-      { image: 'https://images.unsplash.com/photo-1595435934249-5df7ed86e1c0', title: 'Wedding Hair' },
+      { image: 'https://images.unsplash.com/photo-1595435934249-5df7ed86e1c0', title: 'Wedding Hair'},
       { image: 'https://images.unsplash.com/photo-1534270804882-6b5048b1c1fc?auto=format&fit=crop&w=800&q=60', title: 'Bridal Style' }
     ],
     makeup: [
@@ -54,14 +54,15 @@ export const portfolio = {
       { image: 'https://images.unsplash.com/photo-1595777457583-95e059d581b8', title: 'Reception Dress' }
     ],
     gowns: [
-      { image: 'https://lh3.googleusercontent.com/pw/AP1GczPMU9ZK6sICo0TBpY6-RWAxL2ZpSdkYqKpUc7EjbmwcMy9kvwxw9RnOKplV9sK91LKSQco4Ssh_VE3eMNbA-6_b_FrMOwbVtQ_PHGtQN_m86WAmfQY=w2400', title: 'Saare Gown' },
+      { image: 'https://lh3.googleusercontent.com/pw/AP1GczMMzHIkOCR57ISkyNn4rkZ7CZpYB8zwy1iuttID6n-5iOVOE_JH2DL5GnxcB_TsWsvxEfJNPEPmiV4-2YC5LsrnKJQwN4OzXGIgmFfW3t4l-dj6Gm4=w2400', title: 'GO1' },
       { image: 'https://images.unsplash.com/photo-1578632767115-351597cf2477', title: 'Business Attire' },
       { image: 'https://images.unsplash.com/photo-1490707967831-1fd9b48e40e2', title: 'Formal Suits' }
     ],
-    casual: [
-      { image: 'https://lh3.googleusercontent.com/pw/AP1GczONuvKCX0UqyMI0BuOD4FrT66j0mQjdjXhO8UkzweMD9Fd1CfLDufJnP02-5th8Hell_GnWmsWbc9oPlfEBr8SZCUln2bwn0UnMRaC29_waivRJx0M=w2400', title: 'Back Neck Design' },
-      { image: 'https://images.unsplash.com/photo-1434389677669-e08b4cac3105', title: 'Summer Collection' },
-      { image: 'https://images.unsplash.com/photo-1496747611176-843222e1e57c', title: 'Daily Wear' }
-    ]
+   blouse : [
+      { image: 'https://lh3.googleusercontent.com/pw/AP1GczONuvKCX0UqyMI0BuOD4FrT66j0mQjdjXhO8UkzweMD9Fd1CfLDufJnP02-5th8Hell_GnWmsWbc9oPlfEBr8SZCUln2bwn0UnMRaC29_waivRJx0M=w2400', title: 'BN1' },
+      { image: 'https://lh3.googleusercontent.com/pw/AP1GczPyoFl0iFiskMxcn1XmjQ6C_RCNM5XPeeys6zlSzBoRsJiX8Sj6_qJ6wjWfwHNHYoch49RpPVX6QlQxmb8n5CWWNGX8_B6DRh680reQFfJHHC0sFns=w2400', title: 'BN2' },
+      { image: 'https://lh3.googleusercontent.com/pw/AP1GczOroXJUlTEgoC3F23kfm2LTcZeQO0FYR5IQQaqCikS3mwn_35VCulYcQvsY1rDCQaRUa4iNDWrU5Q4siyPRqpWkFZ80BnEp-9y9i4aZauKEDRkJoaY=w2400', title: 'BN3' },
+      { image: 'https://lh3.googleusercontent.com/pw/AP1GczO9MCL4bYjvUAoiL4XF925J-xykdvWcQlfn_IUlE41iTlC1lvmwvpFJQ0plzpuiXlFzwm-l7FjIMwkpPtoeV2lssBQdptfeShCDtDIytJNSFIz7QvQ=w2400', title: 'BN4' }
+   ]
   }
 };
