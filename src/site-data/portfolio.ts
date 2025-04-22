@@ -74,7 +74,13 @@ export const portfolio = {
       { image: 'https://lh3.googleusercontent.com/pw/AP1GczP52F9Wb1Jnd_v9y55MC0p_7iXQzDCp5oXlIeK9YhnopdvFy7qwZGYXHlbOiACbT5smcbDO7m6Ncd1TljIh0SqoHnBybnE_NG2bicfWolSxDql6erA=w2400', title: 'Cap Sleeve-BN13},
       { image: 'https://lh3.googleusercontent.com/pw/AP1GczPbfKMzrkaq9tKG8eEzEWJSkXwY0m6CRxnuNev7BVTrFjPUFNrNz6h7XNapx8-zgzbuJBwjkkHpshDR17vPnkqpbzBI6Vf9z3abFPsekZxZnNVR84k=w2400', title: 'Modren-BN14},
       { image: 'https://lh3.googleusercontent.com/pw/AP1GczMUrHuZrDZl0-9PhLH-VGs3CZtEa_IGci5D7KOCKG5ibz53-HqoB5oNkFhvrm4-4nyZqw1rJ2VDh0fgXuPrqkANdbVNbLHDFlBWDfOfKtJQRtVk7LQ=w2400', title: 'Latest-BN15},
-   ]
-   ]
-  }
+      { image: 'https://lh3.googleusercontent.com/pw/AP1GczPh-nKt1fT2nN4k4qJeb6_0wfmji31xHymTDE-7zFtbuA4es_GHDBfoqbZmqOLB2oynMpzPcEGqX7qwt_DOG0G5Op4CZTviJqyZFT3XIF9mpGYeh_U=w2400', title: 'DeepV-BN16},
+      { image: 'https://lh3.googleusercontent.com/pw/AP1GczNPO8Vs3dB3CfGC1AmmENqEPJk76nbQYtVNRhu8IjhNSyVrUV8wTQuFJoUPyW-W9jYfP9UqVNp6S-dQxbGvFZ9-zDPogjfpLIz1uPsgvXCzuZftrss=w2400', title: 'Latest-BN17}
+   ],
+     Kids: [
+      { image: 'https://lh3.googleusercontent.com/pw/AP1GczNgr9kJFPFsjTsPFog9KCwLdxRpyeR5kn-c3BdHGWmJzYyTdv8g_ks_e8F6D_zbWGegH3KMCjDR76tN51P33vwRGZaGh8TQ63OTPdslbUkF-TTE8-Q=w2400', title: 'Kidz Collection-KID1' },
+      { image: 'https://images.unsplash.com/photo-1578632767115-351597cf2477', title: 'Business Attire' },
+      { image: 'https://images.unsplash.com/photo-1490707967831-1fd9b48e40e2', title: 'Formal Suits' }
+    ]
+   }
 };
