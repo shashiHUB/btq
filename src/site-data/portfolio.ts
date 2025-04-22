@@ -79,8 +79,11 @@ export const portfolio = {
    ],
      Kids: [
       { image: 'https://lh3.googleusercontent.com/pw/AP1GczNgr9kJFPFsjTsPFog9KCwLdxRpyeR5kn-c3BdHGWmJzYyTdv8g_ks_e8F6D_zbWGegH3KMCjDR76tN51P33vwRGZaGh8TQ63OTPdslbUkF-TTE8-Q=w2400', title: 'Kidz Collection-KID1' },
-      { image: 'https://images.unsplash.com/photo-1578632767115-351597cf2477', title: 'Business Attire' },
-      { image: 'https://images.unsplash.com/photo-1490707967831-1fd9b48e40e2', title: 'Formal Suits' }
+      { image: 'https://lh3.googleusercontent.com/pw/AP1GczM0Q0GX2ORd4bgMDYN7gxHPfsH0ZYo6PcNs1DmNGlvpmtSPKyVZunLz9bmbRoZwMLBH7F_cwRWcVhMl4HBIgL6bw4xGOxzo4_f5QG6zZUS2vc50E2s=w2400', title: 'Party wear-Kid2' },
+      { image: 'https://lh3.googleusercontent.com/pw/AP1GczO5mmuv8RJvbQCX2DooxvRx0Zrn3C1JM6dREyZ8zUIv1laJE00klwPGbsRKkld4cNgdj71_8XMiSH2PbVkpBnSXGG3L3QNlRezIF4w1LRPhuR2pk6w=w2400', title: 'Traditional-Kid3' }
+      { image: 'https://lh3.googleusercontent.com/pw/AP1GczNJwQ8FKj_Q-fhFAYo7McOagzvsiAA14yKZKulHKgzKvkmnS85zt_Bchixj71a32rwqQj_JhQzr71tC3gQtal8xWraEfdFjWf4H0fCes4kgoinddjY=w2400', title:'Frocks-Kid4'}
+      { image: 'https://lh3.googleusercontent.com/pw/AP1GczMhM-PYVtuV9jma9ArJLrum2N9HTBfzvu6l6XfYB-4SKC-54wnUtLPdfQlxEZGId3RBM3r-h0uKA5swQLodm1ZNPOaV54fbBnfPKC2Af-rLi77Vs3M=w2400', title:'Frocks-Kid5'}
+      { image: 'https://lh3.googleusercontent.com/pw/AP1GczNs1k_aa2AvKLPm3bFEfYXT8DrRKM4G8uSqwoj4mDPGrpbjtpeDNyxIeinZ7RF6OTFHA9IKNEnLdGdSVEGO_QhsshF0rmnHWlxbUnLy-Wqset1K-PI=w2400', title:'Plazzo-Kid6'}
     ]
    }
 };
