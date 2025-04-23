@@ -69,21 +69,21 @@ export const portfolio = {
       { image: 'https://lh3.googleusercontent.com/pw/AP1GczPq3O-_JxXCkkEK4gJGDGTvcYjlRRkkTGnxXr52glgeoQ9N3GlbkdWLln3YzLMe0gM74ppPXbqxNbD9Eksct86RMPhfYJh0Y4Z5ECgZwTxHxi-1b7I=w2400', title: 'Pot neck-BN8' },
       { image: 'https://lh3.googleusercontent.com/pw/AP1GczMJ03AUiq5ly1zSMJ1WnYt8DxpwK0jyP-PWeoXs6yrt3H6Iy0NA_bV_MzEiAD5C6-E1yYz8Hh-ft3XKaUiyMgJrTnrQ6VXtCLPRQMs3Bmz5dvpqOzc=w2400', title: 'Puff sleeve-BN9'},
       { image: 'https://lh3.googleusercontent.com/pw/AP1GczPuCrl0GKOdjzu3kH8XW4XEagsAFWn-JADlzcWKha1gsP1qWlLF4gPfQZEdahRsXUlDxVRdXERjKxdIB5IpCo2yDqbIJe8OH7ZIVHnOT_xk3pzrDNE=w2400', title: 'Latest-BN10'},
-      { image: 'https://lh3.googleusercontent.com/pw/AP1GczM4aKqrtkLf5buSFD-7HSyoN5B76KkvD1ikVzXPdRCMwwz5TFlwjfi-ROvguyL2FB9DM6qV_dJnDpQUa6AjSgBMBTffDH7gX36spJh7LJkYFjnfU6A=w2400', title: 'Back lays-BN11},
-      { image: 'https://lh3.googleusercontent.com/pw/AP1GczMJ8WpESPgVEG0zEqsyfrOwE-dkTvawN73D3KlnrLMIX-gi4a5zmrF5FFq8xvwTW-0_fLKsXUMA_RKDfqnFQabtiaJHqhD8G77W525gcN7JOeZzmz0=w2400', title: 'latest-BN12},
-      { image: 'https://lh3.googleusercontent.com/pw/AP1GczP52F9Wb1Jnd_v9y55MC0p_7iXQzDCp5oXlIeK9YhnopdvFy7qwZGYXHlbOiACbT5smcbDO7m6Ncd1TljIh0SqoHnBybnE_NG2bicfWolSxDql6erA=w2400', title: 'Cap Sleeve-BN13},
-      { image: 'https://lh3.googleusercontent.com/pw/AP1GczPbfKMzrkaq9tKG8eEzEWJSkXwY0m6CRxnuNev7BVTrFjPUFNrNz6h7XNapx8-zgzbuJBwjkkHpshDR17vPnkqpbzBI6Vf9z3abFPsekZxZnNVR84k=w2400', title: 'Modren-BN14},
-      { image: 'https://lh3.googleusercontent.com/pw/AP1GczMUrHuZrDZl0-9PhLH-VGs3CZtEa_IGci5D7KOCKG5ibz53-HqoB5oNkFhvrm4-4nyZqw1rJ2VDh0fgXuPrqkANdbVNbLHDFlBWDfOfKtJQRtVk7LQ=w2400', title: 'Latest-BN15},
-      { image: 'https://lh3.googleusercontent.com/pw/AP1GczPh-nKt1fT2nN4k4qJeb6_0wfmji31xHymTDE-7zFtbuA4es_GHDBfoqbZmqOLB2oynMpzPcEGqX7qwt_DOG0G5Op4CZTviJqyZFT3XIF9mpGYeh_U=w2400', title: 'DeepV-BN16},
-      { image: 'https://lh3.googleusercontent.com/pw/AP1GczNPO8Vs3dB3CfGC1AmmENqEPJk76nbQYtVNRhu8IjhNSyVrUV8wTQuFJoUPyW-W9jYfP9UqVNp6S-dQxbGvFZ9-zDPogjfpLIz1uPsgvXCzuZftrss=w2400', title: 'Latest-BN17}
+      { image: 'https://lh3.googleusercontent.com/pw/AP1GczM4aKqrtkLf5buSFD-7HSyoN5B76KkvD1ikVzXPdRCMwwz5TFlwjfi-ROvguyL2FB9DM6qV_dJnDpQUa6AjSgBMBTffDH7gX36spJh7LJkYFjnfU6A=w2400', title: 'Back lays-BN11'},
+      { image: 'https://lh3.googleusercontent.com/pw/AP1GczMJ8WpESPgVEG0zEqsyfrOwE-dkTvawN73D3KlnrLMIX-gi4a5zmrF5FFq8xvwTW-0_fLKsXUMA_RKDfqnFQabtiaJHqhD8G77W525gcN7JOeZzmz0=w2400', title: 'latest-BN12'},
+      { image: 'https://lh3.googleusercontent.com/pw/AP1GczP52F9Wb1Jnd_v9y55MC0p_7iXQzDCp5oXlIeK9YhnopdvFy7qwZGYXHlbOiACbT5smcbDO7m6Ncd1TljIh0SqoHnBybnE_NG2bicfWolSxDql6erA=w2400', title: 'Cap Sleeve-BN13'},
+      { image: 'https://lh3.googleusercontent.com/pw/AP1GczPbfKMzrkaq9tKG8eEzEWJSkXwY0m6CRxnuNev7BVTrFjPUFNrNz6h7XNapx8-zgzbuJBwjkkHpshDR17vPnkqpbzBI6Vf9z3abFPsekZxZnNVR84k=w2400', title: 'Modren-BN14'},
+      { image: 'https://lh3.googleusercontent.com/pw/AP1GczMUrHuZrDZl0-9PhLH-VGs3CZtEa_IGci5D7KOCKG5ibz53-HqoB5oNkFhvrm4-4nyZqw1rJ2VDh0fgXuPrqkANdbVNbLHDFlBWDfOfKtJQRtVk7LQ=w2400', title: 'Latest-BN15'},
+      { image: 'https://lh3.googleusercontent.com/pw/AP1GczPh-nKt1fT2nN4k4qJeb6_0wfmji31xHymTDE-7zFtbuA4es_GHDBfoqbZmqOLB2oynMpzPcEGqX7qwt_DOG0G5Op4CZTviJqyZFT3XIF9mpGYeh_U=w2400', title: 'DeepV-BN16'},
+      { image: 'https://lh3.googleusercontent.com/pw/AP1GczNPO8Vs3dB3CfGC1AmmENqEPJk76nbQYtVNRhu8IjhNSyVrUV8wTQuFJoUPyW-W9jYfP9UqVNp6S-dQxbGvFZ9-zDPogjfpLIz1uPsgvXCzuZftrss=w2400', title: 'Latest-BN17'}
    ],
      Kids: [
       { image: 'https://lh3.googleusercontent.com/pw/AP1GczNgr9kJFPFsjTsPFog9KCwLdxRpyeR5kn-c3BdHGWmJzYyTdv8g_ks_e8F6D_zbWGegH3KMCjDR76tN51P33vwRGZaGh8TQ63OTPdslbUkF-TTE8-Q=w2400', title: 'Kidz Collection-KID1' },
       { image: 'https://lh3.googleusercontent.com/pw/AP1GczM0Q0GX2ORd4bgMDYN7gxHPfsH0ZYo6PcNs1DmNGlvpmtSPKyVZunLz9bmbRoZwMLBH7F_cwRWcVhMl4HBIgL6bw4xGOxzo4_f5QG6zZUS2vc50E2s=w2400', title: 'Party wear-Kid2' },
-      { image: 'https://lh3.googleusercontent.com/pw/AP1GczO5mmuv8RJvbQCX2DooxvRx0Zrn3C1JM6dREyZ8zUIv1laJE00klwPGbsRKkld4cNgdj71_8XMiSH2PbVkpBnSXGG3L3QNlRezIF4w1LRPhuR2pk6w=w2400', title: 'Traditional-Kid3' }
-      { image: 'https://lh3.googleusercontent.com/pw/AP1GczNJwQ8FKj_Q-fhFAYo7McOagzvsiAA14yKZKulHKgzKvkmnS85zt_Bchixj71a32rwqQj_JhQzr71tC3gQtal8xWraEfdFjWf4H0fCes4kgoinddjY=w2400', title:'Frocks-Kid4'}
-      { image: 'https://lh3.googleusercontent.com/pw/AP1GczMhM-PYVtuV9jma9ArJLrum2N9HTBfzvu6l6XfYB-4SKC-54wnUtLPdfQlxEZGId3RBM3r-h0uKA5swQLodm1ZNPOaV54fbBnfPKC2Af-rLi77Vs3M=w2400', title:'Frocks-Kid5'}
-      { image: 'https://lh3.googleusercontent.com/pw/AP1GczNs1k_aa2AvKLPm3bFEfYXT8DrRKM4G8uSqwoj4mDPGrpbjtpeDNyxIeinZ7RF6OTFHA9IKNEnLdGdSVEGO_QhsshF0rmnHWlxbUnLy-Wqset1K-PI=w2400', title:'Plazzo-Kid6'}
+      { image: 'https://lh3.googleusercontent.com/pw/AP1GczO5mmuv8RJvbQCX2DooxvRx0Zrn3C1JM6dREyZ8zUIv1laJE00klwPGbsRKkld4cNgdj71_8XMiSH2PbVkpBnSXGG3L3QNlRezIF4w1LRPhuR2pk6w=w2400', title: 'Traditional-Kid3' },
+      { image: 'https://lh3.googleusercontent.com/pw/AP1GczNJwQ8FKj_Q-fhFAYo7McOagzvsiAA14yKZKulHKgzKvkmnS85zt_Bchixj71a32rwqQj_JhQzr71tC3gQtal8xWraEfdFjWf4H0fCes4kgoinddjY=w2400', title:'Frocks-Kid4' },
+      { image: 'https://lh3.googleusercontent.com/pw/AP1GczMhM-PYVtuV9jma9ArJLrum2N9HTBfzvu6l6XfYB-4SKC-54wnUtLPdfQlxEZGId3RBM3r-h0uKA5swQLodm1ZNPOaV54fbBnfPKC2Af-rLi77Vs3M=w2400', title:'Frocks-Kid5' },
+      { image: 'https://lh3.googleusercontent.com/pw/AP1GczNs1k_aa2AvKLPm3bFEfYXT8DrRKM4G8uSqwoj4mDPGrpbjtpeDNyxIeinZ7RF6OTFHA9IKNEnLdGdSVEGO_QhsshF0rmnHWlxbUnLy-Wqset1K-PI=w2400', title:'Plazzo-Kid6' }
     ]
    }
 };
