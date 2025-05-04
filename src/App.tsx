@@ -258,7 +258,7 @@ function App() {
                   <p className="text-lg text-gray-200 mb-8">
                     Experience luxury beauty treatments and bespoke tailoring services
                   </p>
-                  <div className="flex space-x-4">
+                  <div className="flex flex-wrap gap-4">
                     <button 
                       onClick={() => scrollToSection('beauty-services')}
                       className="btn btn-primary"
@@ -374,7 +374,7 @@ function App() {
         <div className="container">
           <h2 className="section-title text-center mb-12">Our Portfolio</h2>
           
-          <div className="flex justify-center space-x-4 mb-8">
+          <div className="flex flex-wrap justify-center gap-4 mb-8">
             <button 
               className={`px-4 py-2 rounded-full transition-colors ${activeCategory === 'beauty' ? 'bg-primary text-white' : 'text-gray-400 hover:text-primary'}`}
               onClick={() => {
@@ -396,7 +396,7 @@ function App() {
           </div>
 
           <div id="beauty-portfolio" className={`${activeCategory === 'beauty' ? 'block' : 'hidden'}`}>
-            <div className="flex justify-center space-x-4 mb-12">
+            <div className="flex flex-wrap justify-center gap-4 mb-12">
               {Object.keys(portfolio.beauty).map((subCategory) => (
                 <button
                   key={subCategory}
@@ -415,7 +415,7 @@ function App() {
           </div>
 
           <div id="tailoring-portfolio" className={`${activeCategory === 'tailoring' ? 'block' : 'hidden'}`}>
-            <div className="flex justify-center space-x-4 mb-12">
+            <div className="flex flex-wrap justify-center gap-4 mb-12">
               {Object.keys(portfolio.tailoring).map((subCategory) => (
                 <button
                   key={subCategory}

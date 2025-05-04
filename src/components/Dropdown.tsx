@@ -5,7 +5,8 @@ interface DropdownProps {
   label: string;
   items: Array<{
     label: string;
-    href: string;
+    href?: string;
+    onClick?: () => void;
   }>;
 }
 
@@ -24,18 +25,22 @@ export function Dropdown({ label, items }: DropdownProps) {
     return () => document.removeEventListener('mousedown', handleClickOutside);
   }, []);
 
-  const handleClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
+  const handleClick = (e: React.MouseEvent<HTMLAnchorElement>, item: { href?: string; onClick?: () => void }) => {
     e.preventDefault();
-    const element = document.querySelector(href);
-    if (element) {
-      const headerOffset = 80;
-      const elementPosition = element.getBoundingClientRect().top;
-      const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+    if (item.onClick) {
+      item.onClick();
+    } else if (item.href) {
+      const element = document.querySelector(item.href);
+      if (element) {
+        const headerOffset = 80;
+        const elementPosition = element.getBoundingClientRect().top;
+        const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
 
-      window.scrollTo({
-        top: offsetPosition,
-        behavior: 'smooth'
-      });
+        window.scrollTo({
+          top: offsetPosition,
+          behavior: 'smooth'
+        });
+      }
     }
     setIsOpen(false);
   };
@@ -61,9 +66,9 @@ export function Dropdown({ label, items }: DropdownProps) {
           {items.map((item, index) => (
             <a
               key={index}
-              href={item.href}
+              href={item.href || '#'}
               className="block px-4 py-2 text-gray-300 hover:text-primary hover:bg-secondary/50 transition-colors duration-200"
-              onClick={(e) => handleClick(e, item.href)}
+              onClick={(e) => handleClick(e, item)}
             >
               {item.label}
             </a>
