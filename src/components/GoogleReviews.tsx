@@ -19,7 +19,7 @@ export function GoogleReviews() {
         </div>
         {/* Direct Link to Google Reviews */}
         <a
-          href="https://www.google.com/search?q=UshaMakeOver.com&kgmid=/g/11x8c17c9t#lrd=0x3ba549b6e6999dd5:0x58427fecd13d99cc,1,,,,,"
+          href="https://g.co/kgs/diuEhET"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-block text-center py-2 px-4 bg-primary text-white rounded-lg hover:bg-primary-dark transition-colors"
