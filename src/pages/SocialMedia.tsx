@@ -3,6 +3,7 @@ import { ArrowLeft, MessageCircle } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { contactInfo } from '../site-data/contact';
 import { InstagramFeed } from '../components/InstagramFeed';
+import { GoogleReviews } from '../components/GoogleReviews';
 
 export function SocialMedia() {
   const navigate = useNavigate();
@@ -49,6 +50,16 @@ export function SocialMedia() {
               <p className="text-sm text-gray-400">Quick responses during business hours</p>
             </div>
           </button>
+        </motion.div>
+
+        {/* Google Reviews Section */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.45 }}
+          className="mb-16"
+        >
+          <GoogleReviews />
         </motion.div>
 
         {/* Instagram Feeds Section */}
