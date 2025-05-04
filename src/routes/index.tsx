@@ -3,6 +3,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import App from '../App';
 import { AppointmentPage } from '../pages/AppointmentPage';
 import { PictureGallery } from '../pages/PictureGallery';
+import { SocialMedia } from '../pages/SocialMedia';
 import { ErrorBoundary } from '../components/ErrorBoundary';
 
 const router = createBrowserRouter([
@@ -19,6 +20,11 @@ const router = createBrowserRouter([
   {
     path: '/gallery',
     element: <PictureGallery />,
+    errorElement: <ErrorBoundary><div>Page not found</div></ErrorBoundary>,
+  },
+  {
+    path: '/social',
+    element: <SocialMedia />,
     errorElement: <ErrorBoundary><div>Page not found</div></ErrorBoundary>,
   }
 ]);

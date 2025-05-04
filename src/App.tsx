@@ -277,6 +277,12 @@ function App() {
                     >
                       Picture Gallery
                     </button>
+                    <button 
+                      onClick={() => navigate('/social')}
+                      className="btn btn-outline"
+                    >
+                      Social Media
+                    </button>
                   </div>
                 </div>
               </div>
