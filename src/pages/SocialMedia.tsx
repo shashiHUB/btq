@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { ArrowLeft, Instagram, MessageCircle } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { contactInfo } from '../site-data/contact';
+import { InstagramFeed } from '../components/InstagramFeed';
 
 export function SocialMedia() {
   const navigate = useNavigate();
@@ -98,6 +99,28 @@ export function SocialMedia() {
             </button>
           </motion.div>
         </div>
+
+        {/* Instagram Feeds Section */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 0.5 }}
+          className="mt-16"
+        >
+          <h2 className="text-3xl font-serif font-bold text-white mb-8 text-center">
+            Latest from <span className="text-primary">Instagram</span>
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <InstagramFeed
+              username="makeover_usharanihassan"
+              title="Usha Makeover"
+            />
+            <InstagramFeed
+              username="ushaboutique__hassan"
+              title="Usha Boutique"
+            />
+          </div>
+        </motion.div>
       </div>
     </div>
   );
