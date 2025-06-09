@@ -2,41 +2,41 @@ export const portfolio = {
   beauty: {
     bridal: [
       {
-        image: "https://images.unsplash.com/photo-1519699047748-de8e457a634e?auto=format&fit=crop&w=800&q=60",
-        title: "Bridal Makeup"
+        image: "https://lh3.googleusercontent.com/pw/AP1GczNRXojKuYH-MWsAABX-5ZJoDOwsvgr7T50MhCS96zsnrBp6Npiy81DRxW0XBTlkmr_G82S1QtC9l5jLCcoYy0GOy35T5I1vR7MBQh7388WbHssMOy0=w2400",
+        title: "Glam Bridal Makeup"
       },
       {
-        image: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=800&q=60",
+        image: "https://lh3.googleusercontent.com/pw/AP1GczOjNg4vV278crKfNl0bSuEoK4DnVaB1h2fhzzHETHE7U_gEJY4KahdNkDKLM_aS_EqG9C5-NYHklGB9VIm7pIqZOPnaz-3CBuBMN7BIm6E0epMolmY=w2400",
         title: "Wedding Day Look"
       },
-      { image: 'https://images.unsplash.com/photo-1595435934249-5df7ed86e1c0', title: 'Wedding Hair'},
-      { image: 'https://images.unsplash.com/photo-1534270804882-6b5048b1c1fc?auto=format&fit=crop&w=800&q=60', title: 'Bridal Style' }
+      { image: 'https://lh3.googleusercontent.com/pw/AP1GczMyPfZXfomNhXin1Bjl8GOvmWOMgpj9njPihlmgegDYaDunmzJBLX7iY_k1Cvw_flhf98Mv07HJjV8YirEWeneAR8PVdZiuFYtgLmZDxWt1rKKeBPM=w2400', title: 'Wedding Hair'},
+      { image: 'https://lh3.googleusercontent.com/pw/AP1GczPKQL-mMf7rSULFGw_BhZ0528uNyIZwGtvjPe_6c7vkPSXT1JeCGBHwGv8DbpJEjxE-TMRyXzfrVm8UOzkuFnTf765aln0bmFrqgHHcQCMVIZgnbto=w2400', title: 'Bridal Style' }
     ],
     makeup: [
-      { image: 'https://images.unsplash.com/photo-1487412912498-0447578fcca8', title: 'Evening Makeup' },
-      { image: "https://lh3.googleusercontent.com/pw/AP1GczNx2_SCvNiSytx58a2nvAHQi0-YYSihgYlSDQZZaMwj1kiKSOooLjpJ-DxHdsWk9NGuRrkpaWO98X2sOIhSpF__ZCHPIiso1w6U_PMRV7AZ3IHIig=w1000",title: "Super makeup"},
-      { image: 'https://images.unsplash.com/photo-1516975080664-ed2fc6a32937', title: 'Natural Look' },
-      { image: 'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e', title: 'Glamour Style' }
+      { image: 'https://lh3.googleusercontent.com/pw/AP1GczMVQBTUQhkZ42iYulvAVQaJ48XphdFsbZxPrftoGOpyxyGwMWBdUhVh9-ML7_nUJQFCV0QBegrM0zOs8DWVEvxF4KYnreB1QMJoK5KKjjz556sk1SA=w2400', title: 'Nude Makeup look' },
+      { image: "https://lh3.googleusercontent.com/pw/AP1GczPsMSc1AsdulY5aInXn6gxwF1OWQa4mci4lfxODqSO8yG-4PpFsvA-xSkAFFOwaeW_9ZWV7LaQvCSxsA4waI6o9d_Yg8yV-QG82QxsjILbi0znnQio=w2400",title: "Non bridal makeup"},
+      { image: 'https://lh3.googleusercontent.com/pw/AP1GczNBnoX0F6c2nxywL9QV8VrafJZQAOX9Sh0k9sWRC47CLb3lP0D3oIGCAxlZF66h6YZAoCI2eLn7_eGmDv8cUFNqpjDH_mcBld5vWhXJ-qPhAs6jDsc=w2400', title: 'Natural Look' },
+      { image: 'https://lh3.googleusercontent.com/pw/AP1GczPmNZc1FcsR_K3Uv3jfZgQbWkn6l0hnghFQr6Qa4fCzBJQRX4Raakq3ZrXNPhz8uanmgNWT0C8XfFNWbVQGa_PplsSqHvTG8hf_OVtS4Lsqq39Fj4Q=w2400', title: 'Glamour Style' }
     ],
     hair: [
       {
-        image: "https://images.unsplash.com/photo-1522336572468-97b06e8ef143?auto=format&fit=crop&w=800&q=60",
-        title: "Hair Treatment"
+        image: "https://lh3.googleusercontent.com/pw/AP1GczPb_lFM4-FfN9v0gqjiBQxNElLlvsWMGDCF3FUXFk69FYGqXxFLXhZtgQ0n_BZcdDMOB2yBKUnD_to0dKlpZOGfF0o-csCJpWt55UwEz-M4mTPfcg4=w2400",
+        title: "Messy bun"
       },
       {
-        image: "https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388?auto=format&fit=crop&w=800&q=60",
-        title: "Hair Styling"
+        image: "https://lh3.googleusercontent.com/pw/AP1GczMLf9i4F1yiOZrUAJKTl7If0DT0YsiLZkRt9StbL5Rnf6p37if-6fQJIij8eGBPcW26-DAM_MXvU3py0QUaK7JFIqUKPby07WD5pZUDopRA1guVXCs=w2400",
+        title: "Fish bride styles"
       },
 
-      { image: 'https://images.unsplash.com/photo-1605497788044-5a32c7078486', title: 'Hair Styling' },
-      { image: 'https://images.unsplash.com/photo-1562322140-8baeececf3df', title: 'Hair Color' },
+      { image: 'https://lh3.googleusercontent.com/pw/AP1GczPn4EeWGcZ1lCp8KFaoRLwscjb2-ID4UaIfBsJZ_85Lkt57sMkO-qSDTigKnKo1CczMMkGMPzkTEX4Sc07zdSkRL0nyDLjFVvukjAjaAVRpFwDNovo=w2400', title: 'curls' },
+      { image: 'https://lh3.googleusercontent.com/pw/AP1GczPVvnTnSMUzny-NPUattyf0YBppAQonWhbjWZqP03JkqkwQnbHGsb8qFbsEWe3N95x-Z8O0dvu6j0efqfSk0HUt_cOAdyvoK4mccsdoUbZk9wIetso=w2400', title: 'Simple Hair style' },
       { 
-        image: "https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=800&q=60",
-        title: "Hair Treatment"
+        image: "https://lh3.googleusercontent.com/pw/AP1GczNL-FUaSecjki-p2qFYVOBRkIiajqzf4mXt48lLGSdcoyUdEJqUNb_h69keMqDsDOCHdArvjPFKpngX5vRcqThestwpx2-KovoJH3S0dSfXdCq9ilY=w2400",
+        title: "Muhartham hairstyle"
       },
       { 
-        image: 'https://images.unsplash.com/photo-1525517450344-d08c6a528e3c?auto=format&fit=crop&w=800&q=60', 
-        title: 'Hair Styling' 
+        image: 'https://lh3.googleusercontent.com/pw/AP1GczMAvG1YOAWo4y-6v4QSqWvpDwWtejh4Xze6CKFxHX0ZZIdi8pmLpL0o_rrH5lDxjxh726g2uxbspymYfsEI6-QKvIxN2Oy9eFj-Tjdxw8BT-jL0JNY=w2400', 
+        title: 'Engagement hairstyle' 
       }
     ]
   },
