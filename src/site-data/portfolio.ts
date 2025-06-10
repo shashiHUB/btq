@@ -43,20 +43,22 @@ export const portfolio = {
   tailoring: {
     wedding: [
       { 
-        image: "https://images.unsplash.com/photo-1612336307429-8a898d10e223?auto=format&fit=crop&w=800&q=60",
-        title: "Wedding Gown"
+        image: "https://lh3.googleusercontent.com/pw/AP1GczOX-jgFDHp2b7d7lfMgnbbhKk9tCg473ygwizUr_BJLjvHu6ogk9WiBuyh1tW3f5IXDdrHnwyfRSW40heAq3KK_DvpGmYisquGr5mq7tsnBsxRc0Rs=w2400",
+        title: "Simple wedding blouse "
       },
       {
-        image: "https://images.unsplash.com/photo-1550614000-4895a10e1bfd?auto=format&fit=crop&w=800&q=60",
+        image: "https://lh3.googleusercontent.com/pw/AP1GczPynLSVpBrc5eAHKe7qLdnilyy2Yj3h-pRosbfyd3KcPDltUW5GPaI44-p30bpRniIkKTVz31R4WANWTUoXTl7RcSLPGHJVTrwFRZIE6uAuo2sLCyc=w2400",
         title: "Bridal Collection"
       },
-      { image: 'https://images.unsplash.com/photo-1595777457583-95e059d581b8', title: 'Bridal Dress' },
-      { image: 'https://images.unsplash.com/photo-1595777457583-95e059d581b8', title: 'Reception Dress' }
+      { image: 'https://lh3.googleusercontent.com/pw/AP1GczOHtDkjR81ZA7dMvI-_2XadcoruFm67--SGsfaE5_VSHYWuqv6hBqyDw4WPcXHI7quJh0XRPXvny6aIZGj_BzApwyORz8Z2xrfpLoLHOWViKwN-nx8=w2400', title: 'Bridal embriodary' },
+      { image: 'https://lh3.googleusercontent.com/pw/AP1GczPIVlH3onTUBqU3S_N6XOfREyy42UtvtwcqHo1TtbXAFFDhj6IYAzteSj3RAbHi559_8nHEKZZZ-OuGldiAw_Vh7nklKnkEFrgcQ8EYAkybyxHr2G0=w2400', title: 'Reception blouse' }
     ],
     gowns: [
       { image: 'https://lh3.googleusercontent.com/pw/AP1GczMMzHIkOCR57ISkyNn4rkZ7CZpYB8zwy1iuttID6n-5iOVOE_JH2DL5GnxcB_TsWsvxEfJNPEPmiV4-2YC5LsrnKJQwN4OzXGIgmFfW3t4l-dj6Gm4=w2400', title: 'GO1' },
-      { image: 'https://images.unsplash.com/photo-1578632767115-351597cf2477', title: 'Business Attire' },
-      { image: 'https://images.unsplash.com/photo-1490707967831-1fd9b48e40e2', title: 'Formal Suits' }
+      { image: 'https://lh3.googleusercontent.com/pw/AP1GczPIVlH3onTUBqU3S_N6XOfREyy42UtvtwcqHo1TtbXAFFDhj6IYAzteSj3RAbHi559_8nHEKZZZ-OuGldiAw_Vh7nklKnkEFrgcQ8EYAkybyxHr2G0=w2400', title: 'Half saare' },
+      { image: 'https://lh3.googleusercontent.com/pw/AP1GczOdV8mro8VCXlAxlal2vQZZz-nA2KF727r5mP_Q0VSIAK3D9CiG4a_A862wl3qrExbPNEAl_dOA51aYsIJ_kRenV3J1_YWdJLy3DLc0Qnlvtknwn4s=w2400', title: 'saare gown' }
+      { image: 'https://lh3.googleusercontent.com/pw/AP1GczOP44mDvCvPu0gS-zozxccmOxWW6QLA2baeua8E6VXUfkS2ldvhdof1pnU-tomGm_ANimFSMbOHHqVGXhVccGM8-_iFOlD-IBs2D_gUFq5YDxbZrk8=w2400', title: 'Gown' }
+      { image: 'https://lh3.googleusercontent.com/pw/AP1GczMhB9Py8lnWQDhoe5YdNphYYdOPEwdl7u42glfPKn23VNXbMVb-WxPTO1guSTo5TYMbNwBh_ithjz0cPeNiorUsixP68jUWEQNn--8BR-jgS8dwilM=w2400', title: 'Gown' }
     ],
    blouse : [
       { image: 'https://lh3.googleusercontent.com/pw/AP1GczONuvKCX0UqyMI0BuOD4FrT66j0mQjdjXhO8UkzweMD9Fd1CfLDufJnP02-5th8Hell_GnWmsWbc9oPlfEBr8SZCUln2bwn0UnMRaC29_waivRJx0M=w2400', title: 'Closed neck-BN1' },
